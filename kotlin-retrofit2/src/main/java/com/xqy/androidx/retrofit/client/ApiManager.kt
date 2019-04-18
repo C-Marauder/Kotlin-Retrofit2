@@ -1,4 +1,4 @@
-package com.androidx.okhttp.client
+package com.xqy.androidx.retrofit.client
 
 import android.os.Environment
 import com.androidx.okhttp.BuildConfig

@@ -1,4 +1,4 @@
-package com.androidx.okhttp.interceptor
+package com.xqy.androidx.retrofit.interceptor
 import okhttp3.Interceptor
 import okhttp3.Response
 import okhttp3.ResponseBody

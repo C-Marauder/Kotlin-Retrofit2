@@ -1,4 +1,4 @@
-package com.androidx.okhttp.interceptor
+package com.xqy.androidx.retrofit.interceptor
 
 import com.google.gson.JsonParser
 import okhttp3.Interceptor

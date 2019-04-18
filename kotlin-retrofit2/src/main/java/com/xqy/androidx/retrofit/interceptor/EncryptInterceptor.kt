@@ -1,7 +1,5 @@
-package com.androidx.okhttp.interceptor
+package com.xqy.androidx.retrofit.interceptor
 
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 import okhttp3.FormBody
 import okhttp3.Interceptor
 import okhttp3.RequestBody
@@ -15,7 +13,6 @@ class EncryptInterceptor(private val isAllow:(path:String)->Boolean,
         if ("POST" == request.method()) {
             val requestBody = request.body()
             if (requestBody is FormBody) {
-//                val formBody = FormBody.Builder()
 
             } else {
                 val isInterceptor = isAllow(request.url().encodedPath())
